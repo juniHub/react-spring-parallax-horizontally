@@ -2,6 +2,7 @@ import "./styles.css";
 
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import SunnyImg from "./images/sunny.png";
 
 const Page = ({ offset, color }) => (
   <>
@@ -10,7 +11,7 @@ const Page = ({ offset, color }) => (
         style={{
           width: "100%",
           height: "100%",
-          backgroundImage: `url(${require("./images/sunny.png")})`,
+           backgroundImage: `url(${SunnyImg})`,
           backgroundSize: "contain"
         }}
       >
